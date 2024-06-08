@@ -1,0 +1,263 @@
+/*--font links--*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/*--common start--*/
+body{
+	margin: 0;
+	font-family:"Playfair Display", serif; 
+	font-size: 16px;
+	font-weight: 400;
+	color:#626262 ;
+}
+/*--common end--*/
+/*--header start--*/
+header{
+	padding: 30px 0;
+	
+}
+.container{
+	overflow: hidden;
+	margin: 0 auto;
+	width:90%;
+	
+	
+	
+}
+.logo{
+	float: left;
+	width: 12%;
+}
+.logo a img{
+	width: 100%;
+
+}
+.menu{
+	float: right;
+	width:65%;
+}
+.menu ul{
+	float: right;
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+
+}
+.menu ul li a{
+	display: inline-block;
+	margin:0 25px;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	transition: 0.33s linear;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #000000;
+}
+/*--header end--*/
+/*--banner start--*/
+.banner{
+
+}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*--banner end--*/
+/*--getaway start--*/
+.getaway{
+	padding: 100px 0 30px;
+}
+
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	color:#626262;
+	
+	}
+	.g_content{
+}
+.light{
+	display: inline-block;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #626262;
+}
+.title{
+		margin: 15px 0 25px;
+		font-family: "Playfair Display", serif;
+		font-size: 30px;
+		font-weight: 400;
+		color: #626262;
+}
+.text{
+	margin: 0;
+	font-family:"Playfair Display", serif;
+	font-size: 16px;
+	display: inline-block;
+	line-height: 24px;
+	text-decoration: none;
+	color:#626262; 	
+}
+
+.g_link{
+	display: block;
+	margin-top: 40px;
+	text-decoration: none;
+	color: #626262;
+}	
+/*--getaway end--*/
+/*--blog start--*/
+.blog{
+
+}
+.bl_content{
+	overflow: hidden;
+}
+.bl_item{
+	margin-top: 70px;
+	width: 47%;
+	box-sizing: border-box;
+	float: left;
+
+}
+.bl_item:nth-child(even){
+	margin-left: 6%;
+}
+.bl_img{
+	margin-bottom: 20px;
+}
+.bl_img img{
+	width: 100%;
+}
+h2{
+	font-size: 30px;
+}
+/*--blog end--*/
+/*--news start--*/
+.news{
+	background-color:#f0f0f0;
+	padding: 70px 0;
+}
+.signup{
+	text-align: center;
+}
+.s_h1{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form{
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+}
+.s_form input{
+	 font-family: "Playfair Display", serif;
+	 font-size: 14px;
+	 color: #000000;
+	 width: 345px;
+	 height: 45px;
+	 border: none;
+	 border-bottom: 1px solid #000000;
+	 background-color: transparent;
+	 padding-left: 5x;
+	 padding-right: 45px;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	background-color: transparent;
+	border:none;
+	cursor: pointer;
+	top: 16px;
+    right: 0px;
+
+}
+.s_form button:focus{
+	outline:0;
+}
+.s_form button img{}
+/*--news end--*/
+/*--blog2 start--*/
+	.blog2{
+
+		}
+		.load{
+			text-align: center;
+			margin: 150px 0 50px;
+		}
+		.load button{
+			margin: 100px;
+			width:165px;
+			height: 60px;
+			background-color: white;
+			border: 1px solid #626262;
+			font-family:"Playfair Display", serif;
+			font-size: 20px;
+			font-weight: 400;
+			color:#626262 ;
+			transition: 0.33s linear ;
+		}
+		.load button:hover{
+			background-color:#626262 ;
+			color: white;
+			transition: 0.33s ;
+		}
+/*--blog2 end--*/
+/*--footer start--*/
+
+.container3{
+	width: 100%;
+	background-color: #f0f0f0;
+   	margin: 0  auto;
+   	overflow: hidden;
+   
+}
+.pages {
+	width: 40%;
+    float: left;
+}
+.pages ul{
+	margin-right: 70px;
+    float:right;
+}
+.pages ul li{
+	float: left;
+	list-style: none;
+}
+	.pages ul li a {
+    margin: 0 25px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 550;
+    padding-right: 30px;
+    margin-bottom: 50px;
+}
+.social{
+	width: 30%;
+    float: right;
+}
+.social ul{
+	float: right;
+}
+.social ul li{
+	float: left;
+    list-style: none;
+    margin-right: 16px;
+    margin-bottom: 15px;
+}
+.social ul li a{
+	margin: 0 10px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
