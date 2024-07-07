@@ -1,2 +1,2 @@
-# minimo-final
+# minimo
 minimo
